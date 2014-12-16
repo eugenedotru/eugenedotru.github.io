@@ -36,13 +36,13 @@
 			</dl>
 			<div class="tabs-content">
 				<div class="content active" id="skills">
-					<ul class="small-block-grid-1">
-						<li>
-							<dl class="accordion" data-accordion="myAccordionGroup">
-								<dd class="accordion-navigation active">
-									<a href="#panel1c">Технологии</a>
-									<div id="panel1c" class="content">
-										<h4>Хорошее знание:</h4>
+				<dl class="tabs vertical" data-tab>
+  <dd class="active"><a href="#panel1">Технологии</a></dd>
+  <dd><a href="#panel2">ПО</a></dd>
+</dl>
+<div class="tabs-content vertical">
+  <div class="content active" id="panel1">
+    <h4>Хорошее знание:</h4>
 										<ul class="small-block-grid-3">
 											<li>
 												<div class="panel">
@@ -88,14 +88,23 @@
 													<img alt="ant" src="images/ant.png">
 
 												</div>
+											</li>											
+											<li>
+												<div class="panel">
+													<img alt="Регулярные выражения" src="images/regexp.png">
+
+												</div>
+											</li>											
+											<li>
+												<div class="panel">
+													<img alt="Git" src="images/git.png">
+
+												</div>
 											</li>
 										</ul>
-									</div>
-								</dd>
-								<dd class="accordion-navigation">
-									<a href="#panel2c">Программное обеспечение</a>
-									<div id="panel2c" class="content">
-										<h4>Хорошее знание:</h4>
+  </div>
+  <div class="content" id="panel2">
+    <h4>Хорошее знание:</h4>
 										<ul class="small-block-grid-3">
 											<li>
 												<div class="panel">
@@ -112,6 +121,12 @@
 											<li>
 												<div class="panel">
 													<img alt="microsoft Office" src="images/o.png">
+
+												</div>
+											</li>
+											<li>
+												<div class="panel">
+													<img alt="LibreOffice" src="images/libreoffice.png">
 
 												</div>
 											</li>
@@ -137,11 +152,8 @@
 												</div>
 											</li>
 										</ul>
-									</div>
-								</dd>
-							</dl>
-						</li>
-					</ul>
+  </div>
+</div>
 				</div>
 				<div class="content" id="experiences">
 					<div class="row">
@@ -162,31 +174,7 @@
 								<p class="text-center">Домашние деньги</p>
 							</div>
 						</li>
-						<li><div class="panel">
-								<a href="#" data-reveal-id="my2"><img alt="Домашние Деньги"
-									src="images/34.png"></a>
-								<p class="text-center">Управление контактами</p>
-							</div></li>
 					</ul>
-
-					<div id="my2" class="reveal-modal" data-reveal>
-						<h3>Управление контактами</h3>
-						<div class="row">
-							<div class="small-7 columns">
-								<a href="#"><img alt="HomeMoney" src="images/34.png"></a>
-							</div>
-							<div class="small-5 columns left">
-
-								<strong>Описание:</strong> Небольшое настольное приложение,
-								предназначенное для редактирования файлов cvf, c последующей
-								синхронизацией в Google Контактах <br /> <span
-									class="label success">Версия: 0.1</span>
-
-							</div>
-						</div>
-						<a class="close-reveal-modal">&#215;</a>
-					</div>
-
 					<div id="my1" class="reveal-modal" data-reveal>
 						<h3>Домашние деньги</h3>
 						<div class="row">
